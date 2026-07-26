@@ -15,6 +15,9 @@ for (let orb of orbs) {
         orb.collider = "none";
         box.vel.y = -10;
         jumpChance = MAX_JUMP;
+      }else{
+        orb.visible = true;
+        
       }
     }
 
