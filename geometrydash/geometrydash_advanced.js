@@ -10,7 +10,7 @@ for (let orb of orbs) {
     }
 //second version choose to activate
 for (let orb of orbs) {
-      if (box.colliding(orb)) {
+      if (box.colliding(orb) && kb.presses('space')) {
         orb.visible = false;
         orb.collider = "none";
         box.vel.y = -10;
