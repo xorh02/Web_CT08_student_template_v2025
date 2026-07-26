@@ -1,5 +1,5 @@
 function draw(){
-
+//first version auto activate
 for (let orb of orbs) {
       if (box.colliding(orb)) {
         orb.visible = false;
