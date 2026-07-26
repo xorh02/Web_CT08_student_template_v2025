@@ -8,7 +8,7 @@ for (let orb of orbs) {
         jumpChance = MAX_JUMP;
       }
     }
-//second version 
+//second version choose to activate
 for (let orb of orbs) {
       if (box.colliding(orb)) {
         orb.visible = false;
