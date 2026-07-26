@@ -17,7 +17,6 @@ for (let orb of orbs) {
         jumpChance = MAX_JUMP;
       }else{
         orb.visible = true;
-        
       }
     }
 
